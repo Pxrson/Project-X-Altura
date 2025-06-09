@@ -19,4 +19,4 @@ A beta, Roblox script, made for MM2/Murder Mystery 2.
 
 ## 💻 Script:
 ```lua
-loadstring(game:HttpGet("NotHereYet"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/refs/heads/main/Selector.lua",true))()
