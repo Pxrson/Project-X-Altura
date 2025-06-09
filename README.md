@@ -1,3 +1,4 @@
+<div align="center">
 # Altura Hub ⚡
 
 <div align="center">
