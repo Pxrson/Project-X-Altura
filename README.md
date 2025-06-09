@@ -25,5 +25,5 @@ A beta Roblox script made for MM2 / Murder Mystery 2.
 | Other | And way more! |
 
 ## Script
-
+``` lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/refs/heads/main/Selector.lua", true))()
