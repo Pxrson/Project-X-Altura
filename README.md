@@ -28,4 +28,4 @@ A beta, Roblox script, made for MM2/Murder Mystery 2.
 
 ## 💻 Script:
 ```lua
-loadstring(game:HttpGet("NotHereYet"))()```
+loadstring(game:HttpGet("NotHereYet"))()
