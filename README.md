@@ -1,7 +1,7 @@
 # Altura-Hub ⚡
 A beta, Roblox script, made for MM2/Murder Mystery 2.
 
-## ✨ Features
+## ✨ Features ⬇
 
 ### 🔧 Library:
 - [Fluent Renewed](https://github.com/ActualMasterOogway/Fluent-Renewed)
