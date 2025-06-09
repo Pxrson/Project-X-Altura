@@ -1,6 +1,7 @@
 # Altura-Hub ⚡
 A beta, Roblox script, made for MM2/Murder Mystery 2.
-![Altura Hub Icon](https://github.com/user-attachments/assets/70186833-e217-4e37-a896-da32c80ec2f9)
+![Altura Hub Selector](https://github.com/user-attachments/assets/4ce93e8e-e9a8-4ac5-b10c-945757da25ca)
+
 
 
 ## 🔧 Library:
