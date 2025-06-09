@@ -2,7 +2,7 @@
 <h1>Altura Hub ⚡</h1>
 
 <div align="center">
-A beta Roblox script made for MM2 / Murder Mystery 2.
+*A beta Roblox script made for MM2 / Murder Mystery 2.*
 
 ---
 
