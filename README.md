@@ -15,16 +15,16 @@ A beta Roblox script made for MM2 / Murder Mystery 2.
 
 ## Features
 
-- Murder ESP (Red outlines)
-- Sheriff ESP (Blue outlines)
-- Innocent ESP (Green outlines)
-- WalkSpeed Slider
-- Fly with adjustable speed (FIXED)
-- Auto Grab Dropped Gun (FIXED)
-- TP to Gun (FIXED)
-- Multiple ESP types
-- Infinite Jump
-- Noclip
+- Murder ESP (Red outlines)  
+- Sheriff ESP (Blue outlines)  
+- Innocent ESP (Green outlines)  
+- WalkSpeed Slider  
+- Fly with adjustable speed (FIXED)  
+- Auto Grab Dropped Gun (FIXED)  
+- TP to Gun (FIXED)  
+- Multiple ESP types  
+- Infinite Jump  
+- Noclip  
 - And way more!
 
 ---
