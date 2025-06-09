@@ -22,6 +22,6 @@ A beta, Roblox script, made for MM2/Murder Mystery 2.
 - Noclip
 - And way more!
 
-## 💻 Script:
+# 💻 Script:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/refs/heads/main/Selector.lua",true))()
