@@ -94,6 +94,10 @@
 ## 🚀 Installation Guide
 
 ### Step 1: Script Installation
+```lua
+-- Copy this code to your executor
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/altura-hub/main/script.lua"))()
+```
 
 ### Step 2: Implementation
 1. Launch your executor
@@ -170,7 +174,3 @@
     </a>
   </p>
 </div>
-
-```lua
--- Copy this code to your executor
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/altura-hub/main/script.lua"))()
