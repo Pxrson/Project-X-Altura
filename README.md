@@ -166,7 +166,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/ref
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
   
-  <p><strong>© 2024 Altura Hub</strong></p>
+  <p><strong>© 2025 Altura Hub</strong></p>
   
   <p>
     <a href="#top">
