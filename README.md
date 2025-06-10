@@ -95,7 +95,7 @@
 
 ### Step 1: Script Installation
 ```lua
--- Copy this code to your executor
+-- enjoy <3
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/altura-hub/main/script.lua"))()
 ```
 
