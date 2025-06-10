@@ -96,7 +96,7 @@
 ### Step 1: Script Installation
 ```lua
 -- enjoy <3
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/altura-hub/main/script.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/refs/heads/main/Selector.lua",true))()
 ```
 
 ### Step 2: Implementation
