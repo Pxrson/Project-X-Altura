@@ -1,4 +1,3 @@
-html
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e61452cb-39b9-45fb-b8db-04b0e516316a" alt="Altura Hub" width="250px"/>
   
