@@ -155,7 +155,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/altura-h
   <table>
     <tr>
       <td style="padding: 20px; background-color: #2c3e50; border-radius: 10px; color: white;">
-        <p><strong>Disclaimer:</strong> Use Altura Hub responsibly. We're not responsible for any account actions. This script is for educational purposes only.</p>
+        <p><strong>Disclaimer:</strong> Use Altura Hub responsibly. We're not responsible for any account bans (or more).</p>
       </td>
     </tr>
   </table>
