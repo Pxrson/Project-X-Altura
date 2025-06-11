@@ -163,14 +163,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/ref
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-  
-  <p><strong>© 2025 Altura Hub</strong></p>
-  
+<div style="text-align: center;">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer Wave"/>
+
+  <p style="font-weight: bold;">&copy; 2025 Altura Hub</p>
+
   <p>
     <a href="#top">
-      <img src="https://img.shields.io/badge/Back_to_Top-↑-5865F2?style=for-the-badge&labelColor=000000" alt="Back to Top">
+      <img src="https://img.shields.io/badge/Back_to_Top-%E2%86%91-5865F2?style=for-the-badge&labelColor=000000" alt="Back to Top" />
     </a>
   </p>
 </div>
