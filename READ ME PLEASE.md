@@ -3,7 +3,7 @@
   
   # ✨ Altura Hub
   
-  <p><em>Advanced tools for better gameplay</em></p>
+  <p><em>Better Script = Better Gameplay</em></p>
   
   <div>
     <a href="https://discord.gg/tAA9bzYyBx" target="_blank">
