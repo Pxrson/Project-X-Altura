@@ -1,5 +1,4 @@
 local StarterGui = game:GetService("StarterGui")
-
 local detectScriptUrl = game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/refs/heads/main/Detect%20Game.lua")
 
 if detectScriptUrl and detectScriptUrl ~= "" then
