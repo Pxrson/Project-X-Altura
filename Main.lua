@@ -8,6 +8,7 @@ if detectScriptUrl and detectScriptUrl ~= "" then
         Text = "✅ Supported game detected, loading script...",
         Duration = 3
     })
+    wait(1)
     loadstring(detectScriptUrl)()
 else
     StarterGui:SetCore("SendNotification", {
