@@ -104,10 +104,10 @@ local function main()
             local gameId = detectScript()
             
             if type(gameId) == "string" and gameId ~= "" then
-                showNotification("🎯 Game detected! Loading features...")
+                showNotification("🎯 Game detected, Loading script...")
                     loadMM2Script()
-            else
-                showNotification("🚀 Game not supported, its mm2 btw")
+                 end
+               end
             end
         end
     end
