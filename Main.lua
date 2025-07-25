@@ -105,17 +105,11 @@ local function main()
             
             if type(gameId) == "string" and gameId ~= "" then
                 showNotification("🎯 Game detected! Loading features...")
+                    loadMM2Script()
             else
-                showNotification("🚀 Game not supported, loading Murder Mystery 2...")
-                loadMM2Script()
+                showNotification("🚀 Game not supported, its mm2 btw")
             end
-        else
-            showNotification("⚠️ Detection failed, loading Murder Mystery 2...")
-            loadMM2Script()
         end
-    else
-        showNotification("🔌 Connection issue, loading Murder Mystery 2...")
-        loadMM2Script()
     end
 end
 
