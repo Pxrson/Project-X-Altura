@@ -96,7 +96,8 @@
 ### Step 1: Script Installation
 ```lua
 -- enjoy <3
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Altura-Hub/refs/heads/main/Selector.lua",true))()
+-- discord: .pxrson
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Main.lua",true))()
 ```
 
 ### Step 2: Implementation
