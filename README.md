@@ -133,7 +133,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   <table>
     <tr>
       <td align="center" style="padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white;">
-        <h2>Join The Altura Hub Discord</h2>
+        <h2>Join Our Discord</h2>
         <p><strong>Community benefits:</strong></p>
         <ul style="text-align: left; display: inline-block;">
           <li>Script access and updates</li>
