@@ -16,7 +16,7 @@
   
   <br>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+<3%3F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+<3" alt="Typing SVG" />
 </div>
 
 ## 🎮 Why Choose Us
