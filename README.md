@@ -48,23 +48,23 @@
 
 ## 📋 Feature List
 
-### 👁️ ESP Features
+### ESP
 - **Murder ESP** - Highlights murderers
 - **Sheriff ESP** - Identifies sheriffs  
 - **Innocent ESP** - Marks innocent players
 - **Multiple ESP Types** - Various visualization options
 
-### 🏃 Movement Enhancements
+### Movement
 - **Speed Control** - Adjustable movement speed
 - **Fly Function** - Enhanced aerial movement (Updated)
 - **Jump Enhancement** - Improved jumping capabilities
 - **Clip Modification** - Move through obstacles
 
-### 🔧 Utility Tools
+### Utility
 - **Automatic Weapon Pickup** - Never miss equipment
 - **Teleport Function** - Quick navigation to items
 
-### Additional Features
+### Additional
 - **Targeting System** - Improved accuracy
 - **Item Detection** - Find important objects
 - **Custom Controls** - Personalized key mapping
