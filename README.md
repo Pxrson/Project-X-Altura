@@ -156,7 +156,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   <table>
     <tr>
       <td style="padding: 20px; background-color: #2c3e50; border-radius: 10px; color: white;">
-        <p><strong>Disclaimer:</strong> Use Altura Hub responsibly. We're not responsible for any account bans (or more).</p>
+        <p><strong>Disclaimer:</strong> Use our script responsibly. We're not responsible for any of your actions.</p>
       </td>
     </tr>
   </table>
