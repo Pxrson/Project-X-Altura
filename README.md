@@ -171,7 +171,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
     width="100%"
   />
 
-  <p><strong>&copy; 2025 Altura Hub</strong></p>
+  <p><strong>&copy; 2025 Project X Altura</strong></p>
 
   <a href="#top">
     <img 
