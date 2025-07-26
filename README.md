@@ -19,7 +19,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Altura+Hub;Built+For+Games+You+Play!;Ready+to+improve+your+gaming%3F" alt="Typing SVG" />
 </div>
 
-## 🎮 Why Choose Altura Hub
+## 🎮 Why Choose Us
 
 <div align="center">
   <table>
