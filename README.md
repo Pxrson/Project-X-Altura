@@ -112,15 +112,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   <table>
     <tr>
       <td align="center" width="300">
-        <img src="https://github.com/Pxrson/About-Me/blob/main/54c48000b784b0f2db4754826da16239.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #5865F2;"/>
+        <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3479.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #5865F2;"/>
         <h3>DatUnknownGuy</h3>
         <p style="background: linear-gradient(45deg, #5865F2, #ff6b6b); padding: 8px 16px; border-radius: 20px; color: white; font-weight: bold;">Founder & Developer</p>
         <p>Learning Lua</p>
       </td>
       <td align="center" width="300">
-        <img src="https://github.com/Pxrson/About-Me/blob/main/0eabae0f9b10dcfd24532ccb06cdb8f8.webp" width="120" height="120" style="border-radius: 50%; border: 4px solid #4ecdc4;"/>
-        <h3>PXRSON</h3>
-        <p style="background: linear-gradient(45deg, #4ecdc4, #45b7d1); padding: 8px 16px; border-radius: 20px; color: white; font-weight: bold;">Co-Owner & Developer</p>
+        <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3480.jpeg" width="120" height="120" style="border-radius: 50%; border: 4px solid #4ecdc4;"/>
+        <h3>pxrson</h3>
+        <p style="background: linear-gradient(45deg, #4ecdc4, #45b7d1); padding: 8px 16px; border-radius: 20px; color: white; font-weight: bold;">Co-Owner</p>
         <p>Learning Lua</p>
       </td>
     </tr>
