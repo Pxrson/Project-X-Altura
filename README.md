@@ -3,8 +3,6 @@
   
   # Project X Altura
   
-  <p><em>Better Script = Better Gameplay</em></p>
-  
   <div>
     <a href="https://discord.gg/tAA9bzYyBx" target="_blank">
       <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord Server"/>
