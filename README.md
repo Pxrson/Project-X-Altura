@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3481.jpeg" alt="Project X Altura" width="250px"/>
   
-  # ✨ Project X Altura
+  # Project X Altura
   
   <p><em>Better Script = Better Gameplay</em></p>
   
@@ -19,34 +19,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+<3" alt="Typing SVG" />
 </div>
 
-## 🎮 Why Choose Us
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%" style="padding: 20px;">
-        <img src="https://img.icons8.com/nolan/96/rocket.png" width="80"/>
-        <h3>Performance</h3>
-        <p><strong>Minimal impact on gameplay</strong></p>
-        <img src="https://img.shields.io/badge/Speed-Optimized-ff6b6b?style=flat-square&logo=flash"/>
-      </td>
-      <td align="center" width="33%" style="padding: 20px;">
-        <img src="https://img.icons8.com/nolan/96/security-checked.png" width="80"/>
-        <h3>Security</h3>
-        <p><strong>Reliable protection</strong></p>
-        <img src="https://img.shields.io/badge/Security-Enhanced-4ecdc4?style=flat-square&logo=shield"/>
-      </td>
-      <td align="center" width="33%" style="padding: 20px;">
-        <img src="https://img.icons8.com/nolan/96/design.png" width="80"/>
-        <h3>User Interface</h3>
-        <p><strong>Clean design</strong> for easy navigation</p>
-        <img src="https://img.shields.io/badge/Design-Intuitive-45b7d1?style=flat-square&logo=figma"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 📋 Feature List
+## Feature List
 
 ### ESP
 - **Murder ESP** - Highlights murderers
@@ -74,39 +47,23 @@
 - **Update System** - Automatic version updates
 - **Expanding Features** - Regular additions
 
-## 🎯 Supported Games
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://img.shields.io/badge/Murder_Mystery_2-Fully_Supported-00ff00?style=for-the-badge&logo=roblox&logoColor=white&labelColor=000000"/>
-        <p><strong>Complete feature integration for MM2</strong></p>
-      </td>
-      <td align="center" width="50%">
-        <img src="https://img.shields.io/badge/Additional_Games-In_Development-ffa726?style=for-the-badge&logo=roblox&logoColor=white&labelColor=000000"/>
-        <p><strong>Support for more games coming soon</strong></p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 🚀 Installation Guide
+## Installation Guide
 
 ### Step 1: Script Installation
 ```lua
--- enjoy <3
 -- discord: .pxrson
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Main.lua",true))()
 ```
 
 ### Step 2: Implementation
 1. Launch your executor
-2. Insert the script
-3. Execute the code
-4. Configure your settings
+2. Copy loadstring above
+3. Paste (the loadstring above) in your executor
+4. Execute the loadstring
+5. Get key from discord, copy and paste
+6. Do whatever
 
-## 👑 Development Team
+## Development Team
 
 <div align="center">
   <table>
@@ -127,7 +84,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   </table>
 </div>
 
-## 💬 Join Our Community
+## Join Our Community
 
 <div align="center">
   <table>
@@ -150,7 +107,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   </table>
 </div>
 
-## ⚠️ Important Notice
+## Important Notice
 
 <div align="center">
   <table>
