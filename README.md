@@ -1,12 +1,12 @@
-# Project X Altura
-
 <div align="center">
+  # Project X Altura
+
   <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3481.jpeg" alt="Project X Altura" width="250px"/>
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+%3C3" alt="Typing SVG" />
-</div>
 
-<img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
+  <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
+</div>
 
 ## Feature List
 ### ESP
@@ -44,7 +44,6 @@
 ```
 
 ## Installation Guide
-
 ### Step 1: Script Installation
 ```lua
 -- discord: .pxrson
