@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3481.jpeg" alt="Project X Altura" width="250px"/>
+  <img>
+  src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3481.jpeg" alt="Project X Altura" width="250px"/>
   
   # Project X Altura
   
