@@ -23,23 +23,23 @@
 - **Expanding Features** - Regular additions
 ```
 
-## Installation Guide
+## Quick Guide
 ### Step 1: Script Installation
 ```lua
 -- discord: .pxrson
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Main.lua",true))()
 ```
-
 ### Step 2: Implementation
+```
 1. Launch your executor
 2. Copy loadstring above
 3. Paste (the loadstring above) in your executor
 4. Execute the loadstring
 5. Get key from discord, copy and paste
 6. Do whatever
+```
 
 ## Join Our Community
-
 <div align="center">
   <table>
     <tr>
@@ -62,7 +62,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 </div>
 
 ## Important Notice
-
 <div align="center">
   <table>
     <tr>
