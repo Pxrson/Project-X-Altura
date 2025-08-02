@@ -16,7 +16,6 @@
   </div>
 
 ## Feature List
-
 ### ESP
 - **Murder ESP** - Highlights murderers
 - **Sheriff ESP** - Identifies sheriffs  
