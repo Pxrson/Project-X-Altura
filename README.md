@@ -1,5 +1,4 @@
 <div align="center">
-# Project X Altura
 
   <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3481.jpeg" alt="Project X Altura" width="250px"/>
 
