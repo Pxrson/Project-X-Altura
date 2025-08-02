@@ -38,7 +38,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 6. Do whatever
 ```
 
-## Join Our Community
+### Join Our Community
 <div align="center">
   <table>
     <tr>
