@@ -12,16 +12,11 @@
 - **Sheriff ESP** - Identifies sheriffs  
 - **Innocent ESP** - Marks innocent players
 - **Multiple ESP Types** - Various visualization options
-- **Speed Control** - Adjustable movement speed
 - **Fly Function** - Enhanced aerial movement (Updated)
-- **Jump Enhancement** - Improved jumping capabilities
-- **Clip Modification** - Move through obstacles
-- **Automatic Weapon Pickup** - Never miss equipment
+- **Jump and Walkspeed** - Improved jumping/walking capabilities
+- **Noclip** - Move through obstacles
+- **Automatic Get Dropped Gun* - Never miss equipment
 - **Teleport Function** - Quick navigation to items
-- **Targeting System** - Improved accuracy
-- **Item Detection** - Find important objects
-- **Custom Controls** - Personalized key mapping
-- **Performance Tracking** - Monitor system metrics
 - **Interface Options** - Multiple visual themes
 - **Configuration Storage** - Save your preferences
 - **Update System** - Automatic version updates
