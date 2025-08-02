@@ -6,14 +6,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+<3" alt="Typing SVG" />
 </div>
 
-  <div>
-    <a href="https://discord.gg/tAA9bzYyBx" target="_blank">
-      <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord Server"/>
-    </a>
-    <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=000000" alt="Status"/>
     <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
-    <img src="https://img.shields.io/badge/Users-Growing_Community-purple?style=for-the-badge&logo=users&logoColor=white&labelColor=000000" alt="Users"/>
-  </div>
 
 ## Feature List
 ### ESP
