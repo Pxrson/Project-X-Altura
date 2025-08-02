@@ -17,22 +17,29 @@
 
 ## Feature List
 ### ESP
+```
 - **Murder ESP** - Highlights murderers
 - **Sheriff ESP** - Identifies sheriffs  
 - **Innocent ESP** - Marks innocent players
 - **Multiple ESP Types** - Various visualization options
+```
 
 ### Movement
+```
 - **Speed Control** - Adjustable movement speed
 - **Fly Function** - Enhanced aerial movement (Updated)
 - **Jump Enhancement** - Improved jumping capabilities
 - **Clip Modification** - Move through obstacles
+```
 
 ### Utility
+```
 - **Automatic Weapon Pickup** - Never miss equipment
 - **Teleport Function** - Quick navigation to items
+```
 
 ### Additional
+```
 - **Targeting System** - Improved accuracy
 - **Item Detection** - Find important objects
 - **Custom Controls** - Personalized key mapping
@@ -41,6 +48,7 @@
 - **Configuration Storage** - Save your preferences
 - **Update System** - Automatic version updates
 - **Expanding Features** - Regular additions
+```
 
 ## Installation Guide
 
@@ -57,27 +65,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 4. Execute the loadstring
 5. Get key from discord, copy and paste
 6. Do whatever
-
-## Development Team
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="300">
-        <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3479.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #5865F2;"/>
-        <h3>DatUnknownGuy</h3>
-        <p style="background: linear-gradient(45deg, #5865F2, #ff6b6b); padding: 8px 16px; border-radius: 20px; color: white; font-weight: bold;">Founder & Developer</p>
-        <p>Learning Lua</p>
-      </td>
-      <td align="center" width="300">
-        <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3480.jpeg" width="120" height="120" style="border-radius: 50%; border: 4px solid #4ecdc4;"/>
-        <h3>pxrson</h3>
-        <p style="background: linear-gradient(45deg, #4ecdc4, #45b7d1); padding: 8px 16px; border-radius: 20px; color: white; font-weight: bold;">Co-Owner</p>
-        <p>Learning Lua</p>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ## Join Our Community
 
