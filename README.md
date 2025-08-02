@@ -14,8 +14,6 @@
     <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
     <img src="https://img.shields.io/badge/Users-Growing_Community-purple?style=for-the-badge&logo=users&logoColor=white&labelColor=000000" alt="Users"/>
   </div>
-  
-  <br>
 
 ## Feature List
 
