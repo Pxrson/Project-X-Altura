@@ -48,7 +48,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
         <p><strong>Community benefits:</strong></p>
         <ul style="text-align: left; display: inline-block;">
           <li>Script access and updates</li>
-          <li>Regular giveaways</li>
           <li>Technical support</li>
           <li>Connect with other players</li>
         </ul>
