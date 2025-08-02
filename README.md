@@ -3,6 +3,9 @@
   
   # Project X Altura
   
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+<3" alt="Typing SVG" />
+</div>
+
   <div>
     <a href="https://discord.gg/tAA9bzYyBx" target="_blank">
       <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord Server"/>
@@ -13,9 +16,6 @@
   </div>
   
   <br>
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+<3" alt="Typing SVG" />
-</div>
 
 ## Feature List
 
