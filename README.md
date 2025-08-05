@@ -1,26 +1,9 @@
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/Pxrson/photos/refs/heads/main/IMG_3481.jpeg" alt="Project X Altura" width="250px"/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+MM2+script+for+you+%3C3" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Welcome+to+Project+X+Altura;Built+for+games+you+play;Good+script+for+you+%3C3" alt="Typing SVG" />
   <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
 </div>
-
-## Feature List
-```
-- **Murder ESP** - Highlights murderers
-- **Sheriff ESP** - Identifies sheriffs  
-- **Innocent ESP** - Marks innocent players
-- **Multiple ESP Types** - Various visualization options
-- **Fly Function** - Enhanced aerial movement (Updated)
-- **Jump and Walkspeed** - Improved jumping/walking capabilities
-- **Noclip** - Move through obstacles
-- **Automatic Get Dropped Gun* - Never miss equipment
-- **Teleport Function** - Quick navigation to items
-- **Interface Options** - Multiple visual themes
-- **Configuration Storage** - Save your preferences
-- **Update System** - Automatic version updates
-- **Expanding Features** - Regular additions
-```
 
 ## Quick Guide
 ### Step 1: Script Installation
