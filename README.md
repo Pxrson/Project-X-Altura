@@ -1,10 +1,17 @@
 <div align="center">
 
-## Guide
+## Project X Altura
 </div>
+
+---
 
 <div align="center">
   <img src="./project/assets/version-badge.svg" alt="Version v4.0"/>
+</div>
+
+<div align="center">
+
+## Guide
 </div>
 
 <div align="center">
