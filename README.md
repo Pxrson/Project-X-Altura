@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="./assets/version-badge.svg" alt="Version v4.0"/>
+</div>
+
+<div align="center">
 
 ## Guide
 </div>
@@ -11,7 +15,6 @@
 copy and paste this loadstring into your executor:
 
 ```lua
--- project x altura v3.5
 -- discord: .pxrson
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
 ```
