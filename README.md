@@ -2,23 +2,22 @@
   <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
 </div>
 
-## Quick Guide
-
-### Step 1: Script Installation
+## Guide
+### Step 1: loadstring
 
 ```lua
 -- discord: .pxrson
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
 ````
 
-### Step 2: Implementation
+### Step 2: what to do
 
-1. Launch your executor
-2. Copy loadstring above
-3. Paste (the loadstring above) in your executor
-4. Execute the loadstring
-5. Get key from discord, copy and paste
-6. Do whatever
+1. launch your executor
+2. copy loadstring above
+3. paste (the loadstring above) in your executor
+4. execute the loadstring
+5. get key from discord, copy and paste
+6. do whatever you want!
 
 ### Join Our Community
 
@@ -28,9 +27,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 Community benefits:
 
-* Script access and updates
-* Technical support
-* Connect with other players
+* updates
+* support
+* connect
 
 <br/>
 
