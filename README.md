@@ -54,7 +54,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 ---
 
+<div align="center">
+
 ## Important Info
+</div>
 
 <div align="center">
 
@@ -66,7 +69,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 ---
 
+<div align="center">
+  
 ## Support & Contact
+</div>
 
 <div align="center">
   
