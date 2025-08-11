@@ -1,10 +1,10 @@
 <div align="center">
-
 ## Guide
-
 </div>
 
+<div align="center">
 ### step 1: load the script
+</div>
 
 copy and paste this loadstring into your executor:
 
@@ -14,16 +14,22 @@ copy and paste this loadstring into your executor:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
 ```
 
-### step 2: execution instructions
+<div align="center">
+### step 2: execution instructions:
+</div>
 
+```
 1. launch your preferred executor
 2. copy the loadstring from step 1
 3. paste it into your executor
 4. execute the script
 5. copy key from our discord server
 6. paste key when prompted
+```
 
-### step 3: join our community
+<div align="center">
+### step 3: join our community:
+</div>
 
 <div align="center">
   <h4>connect with fellow users</h4>
