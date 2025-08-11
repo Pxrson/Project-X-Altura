@@ -7,8 +7,6 @@
   <img src="./project/assets/version-badge.svg" alt="Version v4.0"/>
 </div>
 
----
-
 <div align="center">
 
 ## Guide
