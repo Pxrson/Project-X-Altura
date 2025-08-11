@@ -19,7 +19,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 5. get key from discord, copy and paste
 6. do whatever you want!
 
-### Join Our Community
+### Step 3: join our community
 
 <div align="center">
 
