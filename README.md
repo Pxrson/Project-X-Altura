@@ -13,25 +13,27 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 ````
 
 ### Step 2: what to do
-
+```
 1. launch your executor
 2. copy loadstring above
 3. paste (the loadstring above) in your executor
 4. execute the loadstring
 5. get key from discord, copy and paste
 6. do whatever you want!
+```
 
 ### Step 3: join our community
 
 <div align="center">
 
-**Join Our Discord**
+**Join Discord**
 
-Community benefits:
-
+community benefits include:
+```
 * updates
 * support
 * connect
+```
 
 <br/>
 
@@ -43,7 +45,7 @@ Community benefits:
 
 <div align="center" style="background-color: #2c3e50; border-radius: 10px; color: white; padding: 20px; max-width: 600px; margin: auto;">
 
-**Disclaimer:** Use our script responsibly. We're not responsible for any of your actions.
+**Disclaimer:** use our script responsibly. we're not responsible for any of your actions.
 
 </div>
 
