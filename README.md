@@ -14,8 +14,6 @@
 ### step 1: load the script
 </div>
 
-copy and paste this loadstring into your executor:
-
 ```lua
 -- discord: .pxrson
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
