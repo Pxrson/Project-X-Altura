@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/version-badge.svg" alt="Version v4.0"/>
+  <img src="./project/assets/version-badge.svg" alt="Version v4.0"/>
 </div>
 
 <div align="center">
