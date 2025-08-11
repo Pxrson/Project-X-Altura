@@ -1,58 +1,70 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
-</div>
-
-<div align="center">
 
 ## Guide
-### Step 1: loadstring
-
-```lua
--- discord: .pxrson
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
-````
-
-### Step 2: what to do
-```
-1. launch your executor
-2. copy loadstring above
-3. paste (the loadstring above) in your executor
-4. execute the loadstring
-5. get key from discord, copy and paste
-6. do whatever you want!
-```
-
-### Step 3: join our community
-
-<div align="center">
-
-**Join Discord**
-
-community benefits include:
-```
-* updates
-* support
-* connect
-```
-
-<br/>
-
-[![Join Discord](https://img.shields.io/badge/JOIN_NOW-5865F2?style=for-the-badge\&logo=discord\&logoColor=white\&labelColor=000000)](https://discord.gg/tAA9bzYyBx)
 
 </div>
 
-## Important Notice
+### step 1: load the script
 
-<div align="center" style="background-color: #2c3e50; border-radius: 10px; color: white; padding: 20px; max-width: 600px; margin: auto;">
+copy and paste this loadstring into your executor:
 
-**Disclaimer:** use our script responsibly. we're not responsible for any of your actions.
+```lua
+-- project x altura v3.5
+-- discord: .pxrson
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
+```
+
+### step 2: execution instructions
+
+1. launch your preferred executor
+2. copy the loadstring from step 1
+3. paste it into your executor
+4. execute the script
+5. copy key from our discord server
+6. paste key when prompted
+
+### step 3: join our community
+
+<div align="center">
+  <h4>connect with fellow users</h4>
+  
+  **community benefits:**
+  
+  - real-time updates - be the first to know about new features  
+  - 24/7 support - get help from me
+  - active community - connect with other users
+
+  <br/>
+  
+  [join discord](https://discord.gg/tAA9bzYyBx)
+</div>
+
+---
+
+## Important Info
+
+<div align="center">
+
+### disclaimer
+
+> **use responsibly:** users are solely responsible for their actions when using this tool. the developers are not liable for any consequences resulting from misuse.
 
 </div>
 
 ---
 
-<p><strong>&copy; 2025 Project X Altura</strong></p>
+## Support & Contact
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-%E2%86%91-5865F2?style=for-the-badge\&labelColor=000000)](#top)
-
+<div align="center">
+  
+  **need help?** join our discord for support
+  
+  **developer contact:** `.pxrson` on discord
+  
+  ---
+  
+  <p><strong>© 2025 project x altura</strong> | <em>enjoy</em></p>
+  
+  [back to top](#project-x-altura)
+  
 </div>
