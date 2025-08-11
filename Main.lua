@@ -1,9 +1,9 @@
 -- discord: .pxrson
-if game.PlaceId == 142823291 then
+if game.PlaceId == 142823291 then -- mm2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Murder%20Mystery%202.lua", true))()
 end
 
-if game.PlaceId == 13772394625 then
+if game.PlaceId == 13772394625 then -- blade ball
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Blade%20Ball.lua",true))()
 end
 
