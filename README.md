@@ -51,14 +51,6 @@ community benefits include:
 
 ---
 
-<div align="center">
-
-<img 
-src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" 
-alt="Footer Wave" 
-width="100%"
-/>
-
 <p><strong>&copy; 2025 Project X Altura</strong></p>
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-%E2%86%91-5865F2?style=for-the-badge\&labelColor=000000)](#top)
