@@ -9,7 +9,7 @@
 ### Step 1: Script Installation
 ```lua
 -- discord: .pxrson
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Main.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua",true))()
 ```
 ### Step 2: Implementation
 ```
