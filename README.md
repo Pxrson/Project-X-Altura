@@ -4,6 +4,7 @@
 </div>
 
 <div align="center">
+  
 ### step 1: load the script
 </div>
 
@@ -16,6 +17,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 ```
 
 <div align="center">
+  
 ### step 2: execution instructions:
 </div>
 
@@ -29,6 +31,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 ```
 
 <div align="center">
+  
 ### step 3: join our community:
 </div>
 
