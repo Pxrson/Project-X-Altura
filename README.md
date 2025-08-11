@@ -2,6 +2,7 @@
   <img src="https://img.shields.io/badge/Version-v3.5-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=000000" alt="Version"/>
 </div>
 
+<div align="center">
 ## Quick Guide
 ### Step 1: Script Installation
 ```lua
