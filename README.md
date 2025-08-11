@@ -3,11 +3,12 @@
 </div>
 
 <div align="center">
-## Quick Guide
-### Step 1: Script Installation
-```lua
--- discord: .pxrson
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua",true))()
+  ## Quick Guide
+  ### Step 1: Script Installation
+  ```lua
+  -- discord: .pxrson
+  loadstring(game:HttpGet("https://raw.g
+thubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua",true))()
 ```
 ### Step 2: Implementation
 ```
