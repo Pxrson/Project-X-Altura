@@ -2,8 +2,6 @@
   
 <img src="./project/assets/version-badge.svg" alt="Version v4.0"/>
 
-## Project X Altura
-
 </div>
 
 <div align="center">
