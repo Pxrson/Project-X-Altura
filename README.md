@@ -51,8 +51,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   
 </div>
 
----
-
 <div align="center">
 
 ### step 4: important info
@@ -63,12 +61,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 > **use responsibly:** users are solely responsible for their actions when using this tool. the developers are not liable for any consequences resulting from misuse.
 > **need help?** find my socials by going thru [MY GITHUB](https://github.com/Pxrson)
   
-  ---
-  
   <p><strong>© 2025 project x altura</strong> | <em>enjoy</em></p>
   
   [join discord](https://discord.gg/tAA9bzYyBx)
-  
   [:arrow_up: back to top :arrow_up:](#project-x-altura)
   
 </div>
