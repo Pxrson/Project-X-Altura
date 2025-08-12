@@ -43,7 +43,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   
   **community benefits:**
   
-  - real-time updates - be the first to know about new features  
+  - updates - be first to know about new features  
   - 24/7 support - get help from me
   - active community - connect with other users
 
@@ -56,12 +56,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 <div align="center">
 
-## Important Info
+### step 4: important info
 </div>
 
 <div align="center">
-
-### disclaimer
 
 > **use responsibly:** users are solely responsible for their actions when using this tool. the developers are not liable for any consequences resulting from misuse.
 
@@ -71,19 +69,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 <div align="center">
   
-## Support & Contact
+### step 5: support
 </div>
 
 <div align="center">
   
-  **need help?** join our discord for support
-  
+  **need help?** find my socials by going thru [MY GITHUB](https://github.com/Pxrson)
   **developer contact:** `.pxrson` on discord
   
   ---
   
   <p><strong>© 2025 project x altura</strong> | <em>enjoy</em></p>
   
-  [back to top](#project-x-altura)
+  [:arrow_up: back to top :arrow_up:](#project-x-altura)
   
 </div>
