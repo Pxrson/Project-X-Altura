@@ -75,7 +75,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 <div align="center">
   
   **need help?** find my socials by going thru [MY GITHUB](https://github.com/Pxrson)
-  **developer contact:** `.pxrson` on discord
   
   ---
   
