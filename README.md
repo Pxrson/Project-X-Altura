@@ -62,19 +62,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 <div align="center">
 
 > **use responsibly:** users are solely responsible for their actions when using this tool. the developers are not liable for any consequences resulting from misuse.
-
-</div>
-
----
-
-<div align="center">
-  
-### step 5: support
-</div>
-
-<div align="center">
-  
-  **need help?** find my socials by going thru [MY GITHUB](https://github.com/Pxrson)
+> **need help?** find my socials by going thru [MY GITHUB](https://github.com/Pxrson)
   
   ---
   
