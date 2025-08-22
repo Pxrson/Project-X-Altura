@@ -5,11 +5,6 @@
 </div>
 
 <div align="center">
-
-## Guide
-</div>
-
-<div align="center">
   
 ### step 1: load the script
 </div>
