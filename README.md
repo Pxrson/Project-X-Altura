@@ -50,7 +50,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 <div align="center">
 
-### STEP: important info
+### STEP 4: important info
 </div>
 
 <div align="center">
