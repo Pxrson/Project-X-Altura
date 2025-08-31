@@ -6,7 +6,7 @@
 
 <div align="center">
   
-### step 1: load the script
+### STEP 1: load the script
 </div>
 
 ```lua
@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 <div align="center">
   
-### step 2: execution instructions:
+### STEP 2: execution instructions:
 </div>
 
 ```
@@ -30,7 +30,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 <div align="center">
   
-### step 3: join our community:
+### STEP 3: join our community:
 </div>
 
 <div align="center">
@@ -50,7 +50,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 <div align="center">
 
-### step 4: important info
+### STEP: important info
 </div>
 
 <div align="center">
