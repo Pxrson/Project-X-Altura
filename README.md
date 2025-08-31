@@ -6,7 +6,7 @@
 
 <div align="center">
   
-### STEP 1: load the script
+### STEP 1: load the script / loadstring
 </div>
 
 ```lua
