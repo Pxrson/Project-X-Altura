@@ -26,9 +26,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
   1. get an executor (synapse, krnl, whatever works)
   2. copy paste the loadstring above
-  3. run it
-  4. grab key from discord when it asks
-  5. profit
+  3. grab key from discord when it asks
 
 </details>
 
@@ -39,12 +37,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
   - loads fast, works on mobile too
   - doesn't eat your ram
-  - updates itself when you rejoin
 
    **safety**
 
   - no sketchy stuff, just the script
-  - tested by the community 
+  - tested all the time by me to ensure yall have great experience
   - regular updates for patches
 
    **ui/ux**
