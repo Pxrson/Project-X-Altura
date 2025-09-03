@@ -20,7 +20,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 </details>
 
 <details>
-  <summary>[CLICK TO VIEW] - how to use</summary>
+  <summary>[CLICK TO VIEW] - How To Use</summary>
 
   basic steps:
 
@@ -33,7 +33,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 </details>
 
 <details>
-   <summary>[CLICK TO VIEW] - what it does</summary>
+   <summary>[CLICK TO VIEW] - What It Does</summary>
 
    **performance stuff**
 
@@ -56,7 +56,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 </details>
 
 <details>
-  <summary>[CLICK TO VIEW] - support/community</summary>
+  <summary>[CLICK TO VIEW] - Support / Community</summary>
 
   something broken? 
   [join discord](https://discord.gg/tAA9bzYyBx) - i actually check it
