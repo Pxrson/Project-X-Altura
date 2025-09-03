@@ -1,67 +1,72 @@
 <div align="center">
-  
-  ![Status](https://img.shields.io/badge/Status-Online-00d26a?style=flat)
-  ![Version](https://img.shields.io/badge/Version-4.3-blue?style=flat)
+  <h1>Project X Altura</h1>
+  <p>solid roblox script - does what it says</p>
+
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865f2?style=flat&logo=discord)](https://discord.gg/tAA9bzYyBx)
+![Status](https://img.shields.io/badge/Status-Online-00d26a?style=flat)
+![Version](https://img.shields.io/badge/Version-4.3-blue?style=flat)
 </div>
 
-<div align="center">
-  
-### STEP 1: load the script / loadstring
-</div>
+---
+
+<details>
+  <summary>[CLICK TO VIEW] - Script / Loadstring</summary>
 
 ```lua
 -- discord: .pxrson
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
 ```
 
-<div align="center">
-  
-### STEP 2: execution instructions:
-</div>
+</details>
 
-```
-1. launch your preferred executor
-2. copy the loadstring from step 1
-3. paste it into your executor
-4. execute the script
-5. copy key from our discord server
-6. paste key when prompted
-```
+<details>
+  <summary>[CLICK TO VIEW] - how to use</summary>
 
-<div align="center">
-  
-### STEP 3: join our community:
-</div>
+  basic steps:
 
-<div align="center">
-  <h4>connect with fellow users</h4>
-  
-  **community benefits:**
-  
-  - updates - be first to know about new features  
-  - 24/7 support - get help from me
-  - active community - connect with other users
+  1. get an executor (synapse, krnl, whatever works)
+  2. copy paste the loadstring above
+  3. run it
+  4. grab key from discord when it asks
+  5. profit
 
-  <br/>
-  
-</div>
+</details>
+
+<details>
+   <summary>[CLICK TO VIEW] - what it does</summary>
+
+   **performance stuff**
+
+  - loads fast, works on mobile too
+  - doesn't eat your ram
+  - updates itself when you rejoin
+
+   **safety**
+
+  - no sketchy stuff, just the script
+  - tested by the community 
+  - regular updates for patches
+
+   **ui/ux**
+
+  - clean interface, not bloated
+  - works for beginners
+  - discord support if you need help
+
+</details>
+
+<details>
+  <summary>[CLICK TO VIEW] - support/community</summary>
+
+  something broken? 
+  [join discord](https://discord.gg/tAA9bzYyBx) - i actually check it
+
+  dev team:
+  **pxrson** - main dev, does most of the work
+  find me: [github](https://github.com/Pxrson)
+
+</details>
 
 ---
 
-<div align="center">
-
-### STEP 4: important info
-</div>
-
-<div align="center">
-
-> **use responsibly:** users are solely responsible for their actions when using this tool. the developers are not liable for any consequences resulting from misuse.
-> **need help?** find my socials by going thru [MY GITHUB](https://github.com/Pxrson)
-  
-  <p><strong>© 2025 project x altura</strong> | <em>enjoy</em></p>
-  
-  [join discord](https://discord.gg/tAA9bzYyBx)
-  
-  [:arrow_up: back to top :arrow_up:](#project-x-altura)
-  
-</div>
+<sub>made by pxrson • use responsibly</sub>
