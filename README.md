@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Project X Altura</h1>
-  <p>solid roblox script - does what it says</p>
+  <p>roblox script - does what it says</p>
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865f2?style=flat&logo=discord)](https://discord.gg/tAA9bzYyBx)
 ![Status](https://img.shields.io/badge/Status-Online-00d26a?style=flat)
