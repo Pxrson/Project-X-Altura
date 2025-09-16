@@ -14,7 +14,7 @@
 
 ```lua
 -- discord: .pxrson
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/Main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Main.luau", true))()
 ```
 
 </details>
