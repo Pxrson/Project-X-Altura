@@ -1,7 +1,7 @@
 local games = {
-    ["142823291"] = {"Murder Mystery 2", "FIXING", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/games/Murder%20Mystery%202.lua"},
-    ["13772394625"] = {"Blade Ball", "SOON", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/games/Blade%20Ball.lua"},
-    ["3101667897"] = {"Legends Of Speed", "SOON", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/games/Legends%20Of%20Speed.lua"}
+    ["142823291"] = {"Murder Mystery 2", "FIXING", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/games/Murder%20Mystery%202.luau"},
+    ["13772394625"] = {"Blade Ball", "SOON", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/games/Blade%20Ball.luau"},
+    ["3101667897"] = {"Legends Of Speed", "SOON", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/project/games/Legends%20Of%20Speed.luau"}
 }
 
 local data = games[tostring(game.PlaceId)]
