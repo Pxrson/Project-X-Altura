@@ -66,4 +66,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 ---
 
-<sub>made by pxrson • use responsibly</sub>
+<sub>❤ made by pxrson • use responsibly</sub>
