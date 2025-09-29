@@ -6,6 +6,8 @@ scrngui.Parent = gui
 scrngui.Name = "LoadDisplay"
 scrngui.ResetOnSpawn = false
 scrngui.IgnoreGuiInset = true
+scrngui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+scrngui.DisplayOrder = 999999
 
 local bgpnl = Instance.new("Frame")
 bgpnl.Size = UDim2.new(1, 0, 1, 0)
@@ -14,6 +16,7 @@ bgpnl.AnchorPoint = Vector2.new(0, 0)
 bgpnl.BackgroundColor3 = Color3.fromRGB(15, 10, 25)
 bgpnl.BackgroundTransparency = 0.3
 bgpnl.BorderSizePixel = 0
+bgpnl.ZIndex = 1
 bgpnl.Parent = scrngui
 
 local titlelbl = Instance.new("TextLabel")
@@ -27,6 +30,7 @@ titlelbl.TextSize = 42
 titlelbl.Font = Enum.Font.SourceSansBold
 titlelbl.TextStrokeTransparency = 0
 titlelbl.TextStrokeColor3 = Color3.fromRGB(100, 70, 150)
+titlelbl.ZIndex = 2
 titlelbl.Parent = bgpnl
 
 local progfrm = Instance.new("Frame")
@@ -36,8 +40,8 @@ progfrm.AnchorPoint = Vector2.new(0.5, 0.5)
 progfrm.BackgroundColor3 = Color3.fromRGB(25, 15, 35)
 progfrm.BackgroundTransparency = 0.2
 progfrm.BorderSizePixel = 0
+progfrm.ZIndex = 2
 progfrm.Parent = bgpnl
-progfrm.ZIndex = 1
 
 local progcorner = Instance.new("UICorner")
 progcorner.CornerRadius = UDim.new(0, 10)
@@ -48,8 +52,8 @@ fillbar.Size = UDim2.new(0, 0, 1, 0)
 fillbar.BackgroundColor3 = Color3.fromRGB(160, 110, 220)
 fillbar.BackgroundTransparency = 0.1
 fillbar.BorderSizePixel = 0
+fillbar.ZIndex = 3
 fillbar.Parent = progfrm
-fillbar.ZIndex = 2
 
 local fillcorner = Instance.new("UICorner")
 fillcorner.CornerRadius = UDim.new(0, 10)
@@ -67,19 +71,20 @@ perclbl.Font = Enum.Font.RobotoMono
 perclbl.TextXAlignment = Enum.TextXAlignment.Center
 perclbl.TextYAlignment = Enum.TextYAlignment.Center
 perclbl.TextScaled = true
+perclbl.ZIndex = 4
 perclbl.Parent = progfrm
-perclbl.ZIndex = 3
 
 local tiplbl = Instance.new("TextLabel")
 tiplbl.Size = UDim2.new(0.8, 0, 0.06, 0)
 tiplbl.Position = UDim2.new(0.5, 0, 0.55, 0)
 tiplbl.AnchorPoint = Vector2.new(0.5, 0.5)
 tiplbl.BackgroundTransparency = 1
-tiplbl.Text = "TIP: please execute only once, or it may not work correctly | use leftctrl on pc (open and close)"
+tiplbl.Text = "TIP: run once for proper function | use left ctrl on PC to open/close"
 tiplbl.TextColor3 = Color3.fromRGB(150, 120, 200)
 tiplbl.TextSize = 18
 tiplbl.Font = Enum.Font.RobotoMono
 tiplbl.TextWrapped = true
+tiplbl.ZIndex = 2
 tiplbl.Parent = bgpnl
 
 local authlbl = Instance.new("TextLabel")
@@ -92,6 +97,7 @@ authlbl.TextColor3 = Color3.fromRGB(190, 140, 230)
 authlbl.TextSize = 20
 authlbl.Font = Enum.Font.RobotoMono
 authlbl.TextWrapped = true
+authlbl.ZIndex = 2
 authlbl.Parent = bgpnl
 
 local skipbtn = Instance.new("TextButton")
@@ -104,6 +110,7 @@ skipbtn.Text = "Skip"
 skipbtn.TextColor3 = Color3.fromRGB(230, 200, 255)
 skipbtn.TextSize = 18
 skipbtn.Font = Enum.Font.RobotoMono
+skipbtn.ZIndex = 4
 skipbtn.Parent = bgpnl
 
 local skipcorner = Instance.new("UICorner")
@@ -120,6 +127,7 @@ debuglbl.TextColor3 = Color3.fromRGB(150, 120, 200)
 debuglbl.TextSize = 14
 debuglbl.Font = Enum.Font.RobotoMono
 debuglbl.TextXAlignment = Enum.TextXAlignment.Right
+debuglbl.ZIndex = 2
 debuglbl.Parent = bgpnl
 
 local twensrv = game:GetService("TweenService")
