@@ -155,8 +155,8 @@ end
 
 local function load()
     local games = {
-        ["142823291"] = {"Murder Mystery 2", "FIXING", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Murder%20Mystery%202.luau"},
-        ["13772394625"] = {"Blade Ball", "SOON", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Blade%20Ball.luau"},
+        ["142823291"] = {"Murder Mystery 2", "COMPLETE", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Murder%20Mystery%202.luau"},
+        ["3623096087"] = {"Muscle Legends", "FIXING", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Muscle%20Legends.luau"},
         ["3101667897"] = {"Legends Of Speed", "SOON", "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Legends%20Of%20Speed.luau"}
     }
 
