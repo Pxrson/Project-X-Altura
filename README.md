@@ -56,7 +56,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
   <summary>[CLICK TO VIEW] - Support / Community</summary>
 
   something broken? 
-  [join discord](https://discord.gg/tAA9bzYyBx) - i actually check it
+  [join discord](https://discord.gg/tAA9bzYyBx)
 
   dev team:
   **pxrson** - main dev, does most of the work
