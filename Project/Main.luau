@@ -214,7 +214,7 @@ local function exec()
             anim(curr, 1, 0.3)
         end
     else
-        local list = {"❌ Unsupported\n\n✅ Supported:"}
+        local list = {"Unsupported\n\nSupported:"}
         for idx, obj in pairs(games) do
             table.insert(list, "- " .. obj.name .. " | " .. obj.status)
         end
