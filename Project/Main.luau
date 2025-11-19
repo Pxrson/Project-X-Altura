@@ -1,172 +1,173 @@
-local plyr = game:GetService("Players")
-local rnsv = game:GetService("RunService")
-local twsv = game:GetService("TweenService")
-local http = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+local HttpService = game:GetService("HttpService")
 
-local pplr = plyr.LocalPlayer
-local pgui = pplr:WaitForChild("PlayerGui")
+local Version = "v5.0"
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
-local sgui = Instance.new("ScreenGui")
-sgui.Name = "LoadScreen"
-sgui.ResetOnSpawn = false
-sgui.IgnoreGuiInset = true
-sgui.ZIndexBehavior = Enum.ZIndexBehavior.Global
-sgui.DisplayOrder = 999999
-sgui.Parent = pgui
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "LoadScreen"
+ScreenGui.ResetOnSpawn = false
+ScreenGui.IgnoreGuiInset = true
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+ScreenGui.DisplayOrder = 999999
+ScreenGui.Parent = PlayerGui
 
-local bgnd = Instance.new("Frame")
-bgnd.Size = UDim2.new(1, 0, 1, 0)
-bgnd.Position = UDim2.new(0, 0, 0, 0)
-bgnd.AnchorPoint = Vector2.new(0, 0)
-bgnd.BackgroundColor3 = Color3.fromRGB(15, 10, 25)
-bgnd.BackgroundTransparency = 0.3
-bgnd.BorderSizePixel = 0
-bgnd.ZIndex = 1
-bgnd.Parent = sgui
+local Background = Instance.new("Frame")
+Background.Size = UDim2.new(1, 0, 1, 0)
+Background.Position = UDim2.new(0, 0, 0, 0)
+Background.AnchorPoint = Vector2.new(0, 0)
+Background.BackgroundColor3 = Color3.fromRGB(15, 10, 25)
+Background.BackgroundTransparency = 0.3
+Background.BorderSizePixel = 0
+Background.ZIndex = 1
+Background.Parent = ScreenGui
 
-local titl = Instance.new("TextLabel")
-titl.Size = UDim2.new(0.8, 0, 0.1, 0)
-titl.Position = UDim2.new(0.5, 0, 0.25, 0)
-titl.AnchorPoint = Vector2.new(0.5, 0.5)
-titl.BackgroundTransparency = 1
-titl.Text = "Project X Altura"
-titl.TextColor3 = Color3.fromRGB(210, 160, 255)
-titl.TextSize = 42
-titl.Font = Enum.Font.SourceSansBold
-titl.TextStrokeTransparency = 0
-titl.TextStrokeColor3 = Color3.fromRGB(100, 70, 150)
-titl.ZIndex = 2
-titl.Parent = bgnd
+local Title = Instance.new("TextLabel")
+Title.Size = UDim2.new(0.8, 0, 0.1, 0)
+Title.Position = UDim2.new(0.5, 0, 0.25, 0)
+Title.AnchorPoint = Vector2.new(0.5, 0.5)
+Title.BackgroundTransparency = 1
+Title.Text = "Project X Altura"
+Title.TextColor3 = Color3.fromRGB(210, 160, 255)
+Title.TextSize = 42
+Title.Font = Enum.Font.SourceSansBold
+Title.TextStrokeTransparency = 0
+Title.TextStrokeColor3 = Color3.fromRGB(100, 70, 150)
+Title.ZIndex = 2
+Title.Parent = Background
 
-local pfrm = Instance.new("Frame")
-pfrm.Size = UDim2.new(0.6, 0, 0.08, 0)
-pfrm.Position = UDim2.new(0.5, 0, 0.4, 0)
-pfrm.AnchorPoint = Vector2.new(0.5, 0.5)
-pfrm.BackgroundColor3 = Color3.fromRGB(25, 15, 35)
-pfrm.BackgroundTransparency = 0.2
-pfrm.BorderSizePixel = 0
-pfrm.ZIndex = 2
-pfrm.Parent = bgnd
+local ProgressFrame = Instance.new("Frame")
+ProgressFrame.Size = UDim2.new(0.6, 0, 0.08, 0)
+ProgressFrame.Position = UDim2.new(0.5, 0, 0.4, 0)
+ProgressFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+ProgressFrame.BackgroundColor3 = Color3.fromRGB(25, 15, 35)
+ProgressFrame.BackgroundTransparency = 0.2
+ProgressFrame.BorderSizePixel = 0
+ProgressFrame.ZIndex = 2
+ProgressFrame.Parent = Background
 
-local pcor = Instance.new("UICorner")
-pcor.CornerRadius = UDim.new(0, 10)
-pcor.Parent = pfrm
+local ProgressCorner = Instance.new("UICorner")
+ProgressCorner.CornerRadius = UDim.new(0, 10)
+ProgressCorner.Parent = ProgressFrame
 
-local pbar = Instance.new("Frame")
-pbar.Size = UDim2.new(0, 0, 1, 0)
-pbar.BackgroundColor3 = Color3.fromRGB(160, 110, 220)
-pbar.BackgroundTransparency = 0.1
-pbar.BorderSizePixel = 0
-pbar.ZIndex = 3
-pbar.Parent = pfrm
+local ProgressBar = Instance.new("Frame")
+ProgressBar.Size = UDim2.new(0, 0, 1, 0)
+ProgressBar.BackgroundColor3 = Color3.fromRGB(160, 110, 220)
+ProgressBar.BackgroundTransparency = 0.1
+ProgressBar.BorderSizePixel = 0
+ProgressBar.ZIndex = 3
+ProgressBar.Parent = ProgressFrame
 
-local bcor = Instance.new("UICorner")
-bcor.CornerRadius = UDim.new(0, 10)
-bcor.Parent = pbar
+local BarCorner = Instance.new("UICorner")
+BarCorner.CornerRadius = UDim.new(0, 10)
+BarCorner.Parent = ProgressBar
 
-local perc = Instance.new("TextLabel")
-perc.Size = UDim2.new(1, 0, 1, 0)
-perc.Position = UDim2.new(0.5, 0, 0.5, 0)
-perc.AnchorPoint = Vector2.new(0.5, 0.5)
-perc.BackgroundTransparency = 1
-perc.Text = "0%"
-perc.TextColor3 = Color3.fromRGB(230, 200, 255)
-perc.TextSize = 25
-perc.Font = Enum.Font.RobotoMono
-perc.TextXAlignment = Enum.TextXAlignment.Center
-perc.TextYAlignment = Enum.TextYAlignment.Center
-perc.TextScaled = true
-perc.ZIndex = 4
-perc.Parent = pfrm
+local Percentage = Instance.new("TextLabel")
+Percentage.Size = UDim2.new(1, 0, 1, 0)
+Percentage.Position = UDim2.new(0.5, 0, 0.5, 0)
+Percentage.AnchorPoint = Vector2.new(0.5, 0.5)
+Percentage.BackgroundTransparency = 1
+Percentage.Text = "0%"
+Percentage.TextColor3 = Color3.fromRGB(230, 200, 255)
+Percentage.TextSize = 25
+Percentage.Font = Enum.Font.RobotoMono
+Percentage.TextXAlignment = Enum.TextXAlignment.Center
+Percentage.TextYAlignment = Enum.TextYAlignment.Center
+Percentage.TextScaled = true
+Percentage.ZIndex = 4
+Percentage.Parent = ProgressFrame
 
-local tipt = Instance.new("TextLabel")
-tipt.Size = UDim2.new(0.8, 0, 0.06, 0)
-tipt.Position = UDim2.new(0.5, 0, 0.55, 0)
-tipt.AnchorPoint = Vector2.new(0.5, 0.5)
-tipt.BackgroundTransparency = 1
-tipt.Text = "TIP: run once for proper function | use left ctrl on PC to open/close"
-tipt.TextColor3 = Color3.fromRGB(150, 120, 200)
-tipt.TextSize = 18
-tipt.Font = Enum.Font.RobotoMono
-tipt.TextWrapped = true
-tipt.ZIndex = 2
-tipt.Parent = bgnd
+local TipText = Instance.new("TextLabel")
+TipText.Size = UDim2.new(0.8, 0, 0.06, 0)
+TipText.Position = UDim2.new(0.5, 0, 0.55, 0)
+TipText.AnchorPoint = Vector2.new(0.5, 0.5)
+TipText.BackgroundTransparency = 1
+TipText.Text = "TIP: run once for proper function | use left ctrl on PC to open/close"
+TipText.TextColor3 = Color3.fromRGB(150, 120, 200)
+TipText.TextSize = 18
+TipText.Font = Enum.Font.RobotoMono
+TipText.TextWrapped = true
+TipText.ZIndex = 2
+TipText.Parent = Background
 
-local autx = Instance.new("TextLabel")
-autx.Size = UDim2.new(0.8, 0, 0.05, 0)
-autx.Position = UDim2.new(0.5, 0, 0.9, 0)
-autx.AnchorPoint = Vector2.new(0.5, 0.5)
-autx.BackgroundTransparency = 1
-autx.Text = "created by .pxrson#0000 on discord"
-autx.TextColor3 = Color3.fromRGB(190, 140, 230)
-autx.TextSize = 20
-autx.Font = Enum.Font.RobotoMono
-autx.TextWrapped = true
-autx.ZIndex = 2
-autx.Parent = bgnd
+local AuthorText = Instance.new("TextLabel")
+AuthorText.Size = UDim2.new(0.8, 0, 0.05, 0)
+AuthorText.Position = UDim2.new(0.5, 0, 0.9, 0)
+AuthorText.AnchorPoint = Vector2.new(0.5, 0.5)
+AuthorText.BackgroundTransparency = 1
+AuthorText.Text = "created by .pxrson#0000 on discord"
+AuthorText.TextColor3 = Color3.fromRGB(190, 140, 230)
+AuthorText.TextSize = 20
+AuthorText.Font = Enum.Font.RobotoMono
+AuthorText.TextWrapped = true
+AuthorText.ZIndex = 2
+AuthorText.Parent = Background
 
-local skip = Instance.new("TextButton")
-skip.Size = UDim2.new(0.15, 0, 0.06, 0)
-skip.Position = UDim2.new(0.95, 0, 0.95, 0)
-skip.AnchorPoint = Vector2.new(1, 1)
-skip.BackgroundColor3 = Color3.fromRGB(100, 70, 150)
-skip.BackgroundTransparency = 0.3
-skip.Text = "Skip"
-skip.TextColor3 = Color3.fromRGB(230, 200, 255)
-skip.TextSize = 18
-skip.Font = Enum.Font.RobotoMono
-skip.ZIndex = 4
-skip.Parent = bgnd
+local SkipButton = Instance.new("TextButton")
+SkipButton.Size = UDim2.new(0.15, 0, 0.06, 0)
+SkipButton.Position = UDim2.new(0.95, 0, 0.95, 0)
+SkipButton.AnchorPoint = Vector2.new(1, 1)
+SkipButton.BackgroundColor3 = Color3.fromRGB(100, 70, 150)
+SkipButton.BackgroundTransparency = 0.3
+SkipButton.Text = "Skip"
+SkipButton.TextColor3 = Color3.fromRGB(230, 200, 255)
+SkipButton.TextSize = 18
+SkipButton.Font = Enum.Font.RobotoMono
+SkipButton.ZIndex = 4
+SkipButton.Parent = Background
 
-local skcr = Instance.new("UICorner")
-skcr.CornerRadius = UDim.new(0, 8)
-skcr.Parent = skip
+local SkipCorner = Instance.new("UICorner")
+SkipCorner.CornerRadius = UDim.new(0, 8)
+SkipCorner.Parent = SkipButton
 
-local vers = Instance.new("TextLabel")
-vers.Size = UDim2.new(0.3, 0, 0.05, 0)
-vers.Position = UDim2.new(0.95, 0, 0.05, 0)
-vers.AnchorPoint = Vector2.new(1, 0)
-vers.BackgroundTransparency = 1
-vers.Text = "Build: v4.8 | Time: " .. os.date("%I:%M %p")
-vers.TextColor3 = Color3.fromRGB(150, 120, 200)
-vers.TextSize = 14
-vers.Font = Enum.Font.RobotoMono
-vers.TextXAlignment = Enum.TextXAlignment.Right
-vers.ZIndex = 2
-vers.Parent = bgnd
+local VersionText = Instance.new("TextLabel")
+VersionText.Size = UDim2.new(0.3, 0, 0.05, 0)
+VersionText.Position = UDim2.new(0.95, 0, 0.05, 0)
+VersionText.AnchorPoint = Vector2.new(1, 0)
+VersionText.BackgroundTransparency = 1
+VersionText.Text = "Build: " .. Version .. " | Time: " .. os.date("%I:%M %p")
+VersionText.TextColor3 = Color3.fromRGB(150, 120, 200)
+VersionText.TextSize = 14
+VersionText.Font = Enum.Font.RobotoMono
+VersionText.TextXAlignment = Enum.TextXAlignment.Right
+VersionText.ZIndex = 2
+VersionText.Parent = Background
 
-local curr = 0
-local load = true
+local CurrentProgress = 0
+local Loading = true
 
-rnsv.RenderStepped:Connect(function()
-    perc.Text = math.floor(curr * 100) .. "%"
+RunService.RenderStepped:Connect(function()
+    Percentage.Text = math.floor(CurrentProgress * 100) .. "%"
 end)
 
-local function fade()
-    if sgui.Parent then
-        local info = TweenInfo.new(1)
-        local goal = {BackgroundTransparency = 1}
-        twsv:Create(bgnd, info, goal):Play()
+local function FadeOut()
+    if ScreenGui.Parent then
+        local TweenInformation = TweenInfo.new(1)
+        local FadeGoal = {BackgroundTransparency = 1}
+        TweenService:Create(Background, TweenInformation, FadeGoal):Play()
         
-        for _, elem in ipairs(bgnd:GetDescendants()) do
-            if elem:IsA("TextLabel") or elem:IsA("TextButton") then
-                twsv:Create(elem, info, {TextTransparency = 1}):Play()
-            elseif elem:IsA("Frame") then
-                twsv:Create(elem, info, {BackgroundTransparency = 1}):Play()
+        for _, Element in ipairs(Background:GetDescendants()) do
+            if Element:IsA("TextLabel") or Element:IsA("TextButton") then
+                TweenService:Create(Element, TweenInformation, {TextTransparency = 1}):Play()
+            elseif Element:IsA("Frame") then
+                TweenService:Create(Element, TweenInformation, {BackgroundTransparency = 1}):Play()
             end
         end
         
-        wait(1.1)
+        task.wait(1.1)
     end
-    if sgui then sgui:Destroy() end
+    if ScreenGui then ScreenGui:Destroy() end
 end
 
-local function uprg(val)
-    curr = val
-    pbar.Size = UDim2.new(math.min(curr, 1), 0, 1, 0)
+local function UpdateProgress(Value)
+    CurrentProgress = Value
+    ProgressBar.Size = UDim2.new(math.min(CurrentProgress, 1), 0, 1, 0)
 end
 
-local games = {
+local GamesList = {
     ["142823291"] = {
         name = "Murder Mystery 2",
         status = "COMPLETE",
@@ -174,7 +175,7 @@ local games = {
     },
     ["3623096087"] = {
         name = "Muscle Legends",
-        status = "FIXING",
+        status = "BETA",
         url = "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Muscle%20Legends.luau"
     },
     ["3101667897"] = {
@@ -184,55 +185,55 @@ local games = {
     }
 }
 
-local function anim(from, to, duration)
-    local start = tick()
+local function AnimateProgress(From, To, Duration)
+    local StartTime = tick()
     while true do
-        local elapsed = tick() - start
-        local prog = math.min(elapsed / duration, 1)
-        uprg(from + (to - from) * prog)
-        if prog >= 1 then break end
+        local ElapsedTime = tick() - StartTime
+        local Progress = math.min(ElapsedTime / Duration, 1)
+        UpdateProgress(From + (To - From) * Progress)
+        if Progress >= 1 then break end
         task.wait()
     end
 end
 
-local function exec()
-    local pidx = tostring(game.PlaceId)
-    local data = games[pidx]
+local function ExecuteScript()
+    local PlaceIndex = tostring(game.PlaceId)
+    local GameData = GamesList[PlaceIndex]
     
-    if data then
-        anim(0, 0.2, 0.5)
-        local succ, err = pcall(function()
-            anim(0.2, 0.4, 0.8)
-            local cont = game:HttpGet(data.url)
-            anim(0.4, 0.7, 0.6)
-            loadstring(cont)()
-            anim(0.7, 1, 0.4)
+    if GameData then
+        AnimateProgress(0, 0.2, 0.5)
+        local Success, Error = pcall(function()
+            AnimateProgress(0.2, 0.4, 0.8)
+            local ScriptContent = game:HttpGet(GameData.url)
+            AnimateProgress(0.4, 0.7, 0.6)
+            loadstring(ScriptContent)()
+            AnimateProgress(0.7, 1, 0.4)
         end)
         
-        if not succ then
-            warn("load err:", err)
-            anim(curr, 1, 0.3)
+        if not Success then
+            warn("load err:", Error)
+            AnimateProgress(CurrentProgress, 1, 0.3)
         end
     else
-        local list = {"Unsupported\n\nSupported:"}
-        for idx, obj in pairs(games) do
-            table.insert(list, "- " .. obj.name .. " | " .. obj.status)
+        local SupportedList = {"Unsupported\n\nSupported:"}
+        for Index, GameObject in pairs(GamesList) do
+            table.insert(SupportedList, "- " .. GameObject.name .. " | " .. GameObject.status)
         end
-        print(table.concat(list, "\n"))
-        anim(0, 1, 0.5)
+        print(table.concat(SupportedList, "\n"))
+        AnimateProgress(0, 1, 0.5)
     end
     
-    load = false
+    Loading = false
 end
 
-task.spawn(exec)
+task.spawn(ExecuteScript)
 
-skip.MouseButton1Click:Connect(function()
-    load = false
+SkipButton.MouseButton1Click:Connect(function()
+    Loading = false
 end)
 
-while load do
-    wait(0.1)
+while Loading do
+    task.wait(0.1)
 end
 
-fade()
+FadeOut()
