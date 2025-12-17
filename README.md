@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Project X Altura</h1>
-  <p>roblox script - does what it says</p>
+  <p>roblox script - by pxrson</p>
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865f2?style=flat&logo=discord)](https://discord.gg/tAA9bzYyBx)
 ![Status](https://img.shields.io/badge/Status-Online-00d26a?style=flat)
@@ -66,4 +66,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxrson/Project-X-Altu
 
 ---
 
-<sub>❤ made by pxrson • use responsibly</sub>
+<sub>❤ made by pxrson</sub>
