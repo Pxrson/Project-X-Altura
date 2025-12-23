@@ -3,7 +3,7 @@ local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 
-local Version = "v5.1"
+local Version = "v5.3"
 local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
@@ -98,7 +98,7 @@ AuthorText.Size = UDim2.new(0.8, 0, 0.05, 0)
 AuthorText.Position = UDim2.new(0.5, 0, 0.9, 0)
 AuthorText.AnchorPoint = Vector2.new(0.5, 0.5)
 AuthorText.BackgroundTransparency = 1
-AuthorText.Text = "created by .pxrson#0000 on discord"
+AuthorText.Text = "created by .pxrson#2630 on discord"
 AuthorText.TextColor3 = Color3.fromRGB(190, 140, 230)
 AuthorText.TextSize = 20
 AuthorText.Font = Enum.Font.RobotoMono
