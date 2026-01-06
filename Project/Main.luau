@@ -25,23 +25,67 @@ Background.BorderSizePixel = 0
 Background.ZIndex = 1
 Background.Parent = ScreenGui
 
+local ProfileContainer = Instance.new("Frame")
+ProfileContainer.AnchorPoint = Vector2.new(0.5, 0)
+ProfileContainer.Position = UDim2.new(0.5, 0, 0.12, 0)
+ProfileContainer.Size = UDim2.new(0, 95, 0, 95)
+ProfileContainer.BackgroundColor3 = Color3.fromRGB(25, 15, 40)
+ProfileContainer.BorderSizePixel = 0
+ProfileContainer.ZIndex = 2
+ProfileContainer.Parent = Background
+
+local ContainerCorner = Instance.new("UICorner")
+ContainerCorner.CornerRadius = UDim.new(0.5, 0)
+ContainerCorner.Parent = ProfileContainer
+
+local ProfileBorder = Instance.new("UIStroke")
+ProfileBorder.Color = Color3.fromRGB(160, 110, 220)
+ProfileBorder.Thickness = 3.5
+ProfileBorder.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+ProfileBorder.Parent = ProfileContainer
+
+local UserImage = Instance.new("ImageLabel")
+UserImage.Size = UDim2.new(0.88, 0, 0.88, 0)
+UserImage.Position = UDim2.new(0.5, 0, 0.5, 0)
+UserImage.AnchorPoint = Vector2.new(0.5, 0.5)
+UserImage.BackgroundTransparency = 1
+UserImage.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..LocalPlayer.UserId.."&width=150&height=150&format=png"
+UserImage.ZIndex = 3
+UserImage.Parent = ProfileContainer
+
+local ImageCorner = Instance.new("UICorner")
+ImageCorner.CornerRadius = UDim.new(0.5, 0)
+ImageCorner.Parent = UserImage
+
 local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(0.8, 0, 0.1, 0)
-Title.Position = UDim2.new(0.5, 0, 0.25, 0)
+Title.Position = UDim2.new(0.5, 0, 0.28, 0)
 Title.AnchorPoint = Vector2.new(0.5, 0.5)
 Title.BackgroundTransparency = 1
 Title.Text = "Project X Altura"
 Title.TextColor3 = Color3.fromRGB(210, 160, 255)
-Title.TextSize = 42
+Title.TextSize = 44
 Title.Font = Enum.Font.SourceSansBold
 Title.TextStrokeTransparency = 0
 Title.TextStrokeColor3 = Color3.fromRGB(100, 70, 150)
 Title.ZIndex = 2
 Title.Parent = Background
 
+local UserDisplay = Instance.new("TextLabel")
+UserDisplay.Size = UDim2.new(0.8, 0, 0.04, 0)
+UserDisplay.Position = UDim2.new(0.5, 0, 0.315, 0)
+UserDisplay.AnchorPoint = Vector2.new(0.5, 0.5)
+UserDisplay.BackgroundTransparency = 1
+UserDisplay.Text = "User: " .. LocalPlayer.Name
+UserDisplay.TextColor3 = Color3.fromRGB(190, 140, 230)
+UserDisplay.TextSize = 18
+UserDisplay.Font = Enum.Font.RobotoMono
+UserDisplay.ZIndex = 2
+UserDisplay.Parent = Background
+
 local ProgressFrame = Instance.new("Frame")
 ProgressFrame.Size = UDim2.new(0.6, 0, 0.08, 0)
-ProgressFrame.Position = UDim2.new(0.5, 0, 0.4, 0)
+ProgressFrame.Position = UDim2.new(0.5, 0, 0.46, 0)
 ProgressFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 ProgressFrame.BackgroundColor3 = Color3.fromRGB(25, 15, 35)
 ProgressFrame.BackgroundTransparency = 0.2
@@ -82,12 +126,12 @@ Percentage.Parent = ProgressFrame
 
 local TipText = Instance.new("TextLabel")
 TipText.Size = UDim2.new(0.8, 0, 0.06, 0)
-TipText.Position = UDim2.new(0.5, 0, 0.55, 0)
+TipText.Position = UDim2.new(0.5, 0, 0.56, 0)
 TipText.AnchorPoint = Vector2.new(0.5, 0.5)
 TipText.BackgroundTransparency = 1
 TipText.Text = "TIP: run once for proper function | use left ctrl on PC to open/close"
 TipText.TextColor3 = Color3.fromRGB(150, 120, 200)
-TipText.TextSize = 18
+TipText.TextSize = 16
 TipText.Font = Enum.Font.RobotoMono
 TipText.TextWrapped = true
 TipText.ZIndex = 2
@@ -95,12 +139,12 @@ TipText.Parent = Background
 
 local AuthorText = Instance.new("TextLabel")
 AuthorText.Size = UDim2.new(0.8, 0, 0.05, 0)
-AuthorText.Position = UDim2.new(0.5, 0, 0.9, 0)
+AuthorText.Position = UDim2.new(0.5, 0, 0.91, 0)
 AuthorText.AnchorPoint = Vector2.new(0.5, 0.5)
 AuthorText.BackgroundTransparency = 1
 AuthorText.Text = "created by .pxrson#2630 on discord"
 AuthorText.TextColor3 = Color3.fromRGB(190, 140, 230)
-AuthorText.TextSize = 20
+AuthorText.TextSize = 18
 AuthorText.Font = Enum.Font.RobotoMono
 AuthorText.TextWrapped = true
 AuthorText.ZIndex = 2
@@ -136,6 +180,16 @@ VersionText.TextXAlignment = Enum.TextXAlignment.Right
 VersionText.ZIndex = 2
 VersionText.Parent = Background
 
+task.spawn(function()
+    while ProfileContainer.Parent do
+        local PulseTween = TweenService:Create(ProfileBorder, TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut, -1, true), {
+            Thickness = 5
+        })
+        PulseTween:Play()
+        task.wait(4)
+    end
+end)
+
 local CurrentProgress = 0
 local Loading = true
 
@@ -154,6 +208,8 @@ local function FadeOut()
                 TweenService:Create(Element, TweenInformation, {TextTransparency = 1}):Play()
             elseif Element:IsA("Frame") then
                 TweenService:Create(Element, TweenInformation, {BackgroundTransparency = 1}):Play()
+            elseif Element:IsA("ImageLabel") then
+                TweenService:Create(Element, TweenInformation, {ImageTransparency = 1}):Play()
             end
         end
         
@@ -180,7 +236,7 @@ local GamesList = {
     },
     ["3101667897"] = {
         name = "Legends Of Speed",
-        status = "SOON",
+        status = "BETA",
         url = "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Legends%20Of%20Speed.luau"
     }
 }
