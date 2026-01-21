@@ -4,7 +4,7 @@
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865f2?style=flat&logo=discord)](https://discord.gg/tAA9bzYyBx)
 ![Status](https://img.shields.io/badge/Status-Online-00d26a?style=flat)
-![Version](https://img.shields.io/badge/Version-5.3-blue?style=flat)
+![Version](https://img.shields.io/badge/Version-5.4-blue?style=flat)
 </div>
 
 ---
