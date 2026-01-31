@@ -231,7 +231,7 @@ local GamesList = {
     },
     ["3623096087"] = {
         name = "Muscle Legends",
-        status = "BETA",
+        status = "BETA (KINDA COMPLETE)",
         url = "https://raw.githubusercontent.com/Pxrson/Project-X-Altura/refs/heads/main/Project/Games/Muscle%20Legends.luau"
     },
     ["3101667897"] = {
